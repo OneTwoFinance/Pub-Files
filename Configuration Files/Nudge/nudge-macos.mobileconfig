@@ -7,13 +7,6 @@
 			<dict>
 				<key>json-url</key>
 				<string>https://raw.githubusercontent.com/MichaelJon12/Pub-Files/main/Configuration%20Files/Nudge/com.github.macadmins.Nudge.json</string>
-				<key>optionalFeatures</key>
-				<dict>
-					<key>attemptToFetchMajorUpgrade</key>
-					<false />
-					<key>enforceMinorUpdates</key>
-					<false />
-				</dict>
 				<key>PayloadDisplayName</key>
 				<string>Nudge</string>
 				<key>PayloadIdentifier</key>
@@ -24,11 +17,6 @@
 				<string>667f67fe-fe4f-4eaa-baee-d2f79bc45abd</string>
 				<key>PayloadVersion</key>
 				<integer>1</integer>
-				<key>userInterface</key>
-				<dict>
-					<key>showDeferralCount</key>
-					<false />
-				</dict>
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
