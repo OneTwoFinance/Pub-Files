@@ -8,9 +8,9 @@
         <key>PayloadDescription</key>
         <string>Configures all Nudge preferences</string>
         <key>PayloadDisplayName</key>
-        <string>Nudge - Preferences</string>
+        <string>Nudge Preferences</string>
         <key>PayloadIdentifier</key>
-        <string>com.github.macadmins.Nudge.preferences</string>
+        <string>com.github.macadmins.Nudge.preferences.example</string>
         <key>PayloadOrganization</key>
         <string></string>
         <key>PayloadType</key>
@@ -85,9 +85,9 @@
             <key>majorUpgradeAppPath</key>
             <string>/Applications/Install macOS Big Sur.app</string>
             <key>requiredInstallationDate</key>
-            <date>2023-08-28T00:00:00Z</date>
+            <date>2021-08-28T00:00:00Z</date>
             <key>requiredMinimumOSVersion</key>
-            <string>13.3</string>
+            <string>11.5.2</string>
             <key>targetedOSVersionsRule</key>
             <string>default</string>
           </dict>
