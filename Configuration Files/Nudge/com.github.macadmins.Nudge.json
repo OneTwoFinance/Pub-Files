@@ -34,6 +34,8 @@
           "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
         }
       ],
+      "actionButtonPath": "",
+      "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
       "requiredInstallationDate": "2021-08-28T00:00:00Z",
       "requiredMinimumOSVersion": "13.3",
       "targetedOSVersionsRule": "default"
@@ -60,11 +62,12 @@
     "randomDelay": false
   },
   "userInterface": {
+    "actionButtonPath": "",
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
-    "iconDarkPath": "/tmp/nudge/appleRainbow.png",
-    "iconLightPath": "/tmp/nudge/appleRainbow.png",
+    "iconDarkPath": "/somewhere/logoDark.png",
+    "iconLightPath": "/somewhere/logoLight.png",
     "screenShotDarkPath": "/somewhere/screenShotDark.png",
     "screenShotLightPath": "/somewhere/screenShotLight.png",
     "showDeferralCount": true,
