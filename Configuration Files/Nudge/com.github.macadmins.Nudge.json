@@ -1,12 +1,17 @@
 {
   "optionalFeatures": {
-    "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true,
+    "acceptableApplicationBundleIDs": [],
+    "acceptableAssertionUsage": true,
+    "acceptableCameraUsage": false,
+    "acceptableScreenSharingUsage": false,
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": true,
-    "asynchronousSoftwareUpdate": false,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToBlockApplicationLaunches": false,
     "attemptToFetchMajorUpgrade": true,
-    "enforceMinorUpdates": true
+    "blockedApplicationBundleIDs": [],
+    "enforceMinorUpdates": true,
+    "terminateApplicationsOnLaunch": false
   },
   "osVersionRequirements": [
     {
