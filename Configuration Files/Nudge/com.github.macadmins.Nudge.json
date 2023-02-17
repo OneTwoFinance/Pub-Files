@@ -1,7 +1,7 @@
 {
   "optionalFeatures": {
     "acceptableApplicationBundleIDs": [],
-    "acceptableAssertionUsage": true,
+    "acceptableAssertionUsage": false,
     "acceptableCameraUsage": false,
     "acceptableScreenSharingUsage": false,
     "aggressiveUserExperience": true,
@@ -15,7 +15,14 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121",
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896#macos1121",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
+        }
+      ],
+      "actionButtonPath": "",
       "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
       "requiredInstallationDate": "2023-02-20T00:00:00Z",
       "requiredMinimumOSVersion": "13.3",
