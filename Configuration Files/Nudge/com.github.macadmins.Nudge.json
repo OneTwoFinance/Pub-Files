@@ -1,33 +1,36 @@
 {
   "optionalFeatures": {
-    "acceptableAssertionApplicationNames": [
-        "zoom.us",
-        "Meeting Center",
-        "Google Chrome",
-        "Safari"
-    ],
-    "acceptableAssertionUsage": true,
     "acceptableCameraUsage": true,
     "acceptableScreenSharingUsage": true,
-    "attemptToBlockApplicationLaunches": true,
-    "blockedApplicationBundleIDs": [
-      "com.microsoft.VSCode",
-      "us.zoom.xos"
-    ],
-    "terminateApplicationsOnLaunch": false
+    "aggressiveUserExperience": true,
+    "aggressiveUserFullScreenExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": true,
+    "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL": "https://apple.com",
-      "requiredInstallationDate": "2024-01-01T00:00:00Z",
-      "requiredMinimumOSVersion": "13.99.99",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT201541"
+        }
+      ],
+      "requiredInstallationDate": "2023-02-20T00:00:01Z",
+      "requiredMinimumOSVersion": "13.3",
       "targetedOSVersionsRule": "default"
     }
   ],
   "userExperience": {
-    "elapsedRefreshCycle": 10,
-    "initialRefreshCycle": 10,
-    "nudgeRefreshCycle": 5,
+    "allowedDeferrals": 100,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 120,
+    "elapsedRefreshCycle": 300,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
     "randomDelay": false
   },
   "userInterface": {
