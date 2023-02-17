@@ -120,13 +120,13 @@
 					<key>forceScreenShotIcon</key>
 					<false />
 					<key>iconDarkPath</key>
-					<string>/tmp/nudge/appleRainbow.png</string>
+					<string>/somewhere/logoDark.png</string>
 					<key>iconLightPath</key>
-					<string>/tmp/nudge/appleRainbow.png</string>
+					<string>/somewhere/logoLight.png</string>
 					<key>screenShotDarkPath</key>
-					<string>/tmp/nudge/updateDark.png</string>
+					<string>/somewhere/screenShotDark.png</string>
 					<key>screenShotLightPath</key>
-					<string>/tmp/nudge/updateLight.png</string>
+					<string>/somewhere/screenShotLight.png</string>
 					<key>showDeferralCount</key>
 					<true />
 					<key>simpleMode</key>
