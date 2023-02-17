@@ -37,13 +37,13 @@
 								<key>_language</key>
 								<string>en</string>
 								<key>aboutUpdateURL</key>
-								<string>https://support.apple.com/en-us/HT211896</string>
+								<string>https://support.apple.com/en-us/HT213268</string>
 							</dict>
 						</array>
 						<key>requiredInstallationDate</key>
-						<date>2023-08-20T00:00:00Z</date>
+						<date>2023-08-24T00:00:01Z</date>
 						<key>requiredMinimumOSVersion</key>
-						<string>13.2.2</string>
+						<string>13.2.1</string>
 					</dict>
 				</array>
 				<key>PayloadDescription</key>
@@ -134,7 +134,9 @@
 							<string>Updates can take around 10-15 minutes to complete</string>
 							<key>mainContentText</key>
 							<string>A fully up-to-date device is required to ensure that we on the techops team can protect our data.
+
 If you do not update by the due date, you will effectively be locked out of your system until you complete the update.
+
 While the update has been rigorously tested it's advised you do this as soon as possible to avoid any downtime, as well as help us find any issues early on with the update.
 
 To begin the update, simply click on the Update Device button and follow the prompts.
