@@ -7,8 +7,6 @@
 			<dict>
 				<key>optionalFeatures</key>
 				<dict>
-					<key>acceptableAssertionUsage</key>
-					<false />
 					<key>acceptableCameraUsage</key>
 					<true />
 					<key>acceptableScreenSharingUsage</key>
@@ -19,14 +17,10 @@
 					<true />
 					<key>asynchronousSoftwareUpdate</key>
 					<true />
-					<key>attemptToBlockApplicationLaunches</key>
-					<false />
 					<key>attemptToFetchMajorUpgrade</key>
 					<true />
 					<key>enforceMinorUpdates</key>
 					<true />
-					<key>terminateApplicationsOnLaunch</key>
-					<false />
 				</dict>
 				<key>osVersionRequirements</key>
 				<array>
